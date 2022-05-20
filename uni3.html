@@ -1,0 +1,578 @@
+<html>
+
+<head>
+<title>Pagina web Arquitectura Comp </title>
+</head>
+
+<body background = "PaginaWeb/imagenes/fondo5.jpeg">
+
+<center><h1><font color = "white" >* ARQUITECTURA DE COMPUTADORAS *</font></h1></center>
+<img src = "PaginaWeb/imagenes/logo.jpg">
+<center>
+
+<a href = "PaginaW.html">
+<img src = "PaginaWeb/imagenes/inicio.png"></a>
+
+<a href = "uni1.html">
+<img src = "PaginaWeb/imagenes/uni1.png"></a>
+
+<a href = "uni2.html">
+<img src = "PaginaWeb/imagenes/uni2.png"></a>
+
+<a href = "uni3.html">
+<img src = "PaginaWeb/imagenes/uni3.png"></a>
+
+<a href = "uni4.html">
+<img src = "PaginaWeb/imagenes/uni4.png"></a>
+</center>
+
+<center><h1><font color = "red" >*Tema: Modos De Direccionamiento*</font></h1></center>
+<center><table border = "3"><td>
+<center><h2><font color = "white">
+<p>- Modos de direccionamiento.</p>
+<p>Distintas formas que tiene la arquitectura para especificar la ubicación de
+los operandos.</p>
+
+<p>- Objetivos:</p>
+<p>* Reducir el número de bits para especificar un operando en memoria.
+* Dar soporte a las estructuras de datos de alto nivel.</p>
+
+<p>- Pueden ser:</p>
+<p>* Para datos, sobre los que opera la instrucción.
+* Para instrucciones, especifica la dirección de la siguiente instrucción
+a ejecutar (en instrucciones de control).</p>
+
+<p>- Necesidades de direccionamiento</p>
+<p>Dónde puede estar un operando:
+* En la propia instrucción
+* En un registro - En memoria</p>
+</font></h2></center>
+
+<center><img src = "PaginaWeb/imagenes/u36.jpg"></center>
+
+<center><h2><font color = "white">
+<p>- Direccionamiento por registro.</p>
+<p>El campo de dirección especifica un registro donde está el operando.</p>
+</font></h2></center>
+<center><img src = "PaginaWeb/imagenes/u37.jpg"></center>
+
+<center><h2><font color = "white">
+<p>- Direccionamiento Inmediato.</p>
+<p>El operando está en la instrucción.</p>
+</font></h2></center>
+<center><img src = "PaginaWeb/imagenes/u38.jpg"></center>
+
+<center><h2><font color = "white">
+<p>- Direccionamiento directo.</p>
+<p>El campo de dirección contiene la dirección efectiva del operando.</p>
+</font></h2></center>
+<center><img src = "PaginaWeb/imagenes/u39.jpg"></center>
+
+<center><h2><font color = "white">
+<p>- Direccionamiento indirecto por registro.</p>
+<p>Se especifica un registro donde está la dirección del operando.</p>
+</font></h2></center>
+<center><img src = "PaginaWeb/imagenes/u40.jpg"></center>
+
+<center><h2><font color = "white">
+<p>- Direccionamiento directo.</p>
+<p>El campo de dirección contiene la dirección efectiva del operando.</p>
+</font></h2></center>
+<center><img src = "PaginaWeb/imagenes/u41.jpg"></center>
+
+<center><h2><font color = "white">
+<p>- Direccionamiento indirecto por memoria.</p>
+<p>El campo de direcciones contiene la dirección de una palabra donde está
+la dirección del operando.</p>
+</font></h2></center>
+<center><img src = "PaginaWeb/imagenes/u42.jpg"></center>
+
+<center><h2><font color = "white">
+<p>- Direccionamiento base + desplazamiento.</p>
+<p>Combina posibilidades del directo (facilidad de uso) y del indirecto por
+registro (menos bits para especificar dirección). Habrá que especificar un
+registro y un valor. La suma del contenido del registro y el valor es la dirección
+del operando.</p>
+</font></h2></center>
+<center><img src = "PaginaWeb/imagenes/u43.jpg"></center>
+
+<center><h2><font color = "white">
+<p>- Direccionamiento indexado.</p>
+<p>La dirección del operando es la suma de dos registros.</p>
+</font></h2></center>
+<center><img src = "PaginaWeb/imagenes/u44.jpg"></center>
+
+</table></center>	
+
+<center><h1><font color = "red" >*Tema: Chipset*</font></h1></center>
+<center><table border = "3"><td>
+<center><h2><font color = "white">				
+<p>Un chipset es el conjunto de circuitos integrados diseñados con base
+en la arquitectura de un procesador (en algunos casos, diseñados
+como parte integral de esa arquitectura), permitiendo que ese tipo de
+procesadores funcionen en una placa base. Sirven de puente de
+comunicación con el resto de componentes de la placa, como son la
+memoria, las tarjetas de expansión, los puertos USB, ratón, teclado,
+etc.</p>
+<p>Las placas base modernas suelen incluir dos integrados,
+denominados puente norte y puente sur, y suelen ser los circuitos
+integrados más grandes después de la GPU y el microprocesador.
+Las últimas placa base carecen de puente norte, ya que los
+procesadores de última generación lo llevan integrado.</p>
+
+</font></h2></center>
+<center><img src = "PaginaWeb/imagenes/u45.jpg"></center>
+
+<center><h2><font color = "white">				
+<p>- Funcionamiento.</p>
+<p>El chipset es el que hace posible que la placa base funcione como
+eje del sistema, dando soporte a varios componentes e
+interconectándolos de forma que se comuniquen entre ellos haciendo
+uso de diversos buses. Es uno de los pocos elementos que tiene
+conexión directa con el procesador, gestiona la mayor parte de la
+información que entra y sale por el bus principal del procesador, del
+sistema de vídeo y muchas veces de la memoria RAM.</p>
+<p>En el caso de los computadores PC, es un esquema de arquitectura
+abierta que establece modularidad: el chipset debe tener interfaces
+estándar para los demás dispositivos. Esto permite escoger entre
+varios dispositivos estándar, por ejemplo, en el caso de los buses de
+expansión, algunas tarjetas madre pueden tener bus PCI-Express y
+soportar diversos tipos de tarjetas de distintos anchos de bus (1x, 8x,
+16x).</p>
+
+</font></h2></center>
+<center><img src = "PaginaWeb/imagenes/u46.jpg"></center>
+
+<center><h2><font color = "white">				
+<p>La terminología de los integrados ha cambiado desde que se creó el
+concepto del chip-set a principio de los años 1990, pero todavía
+existe equivalencia haciendo algunas aclaraciones:</p>
+<p>- Puente norte: northbridge, MCH (memory controller hub) o
+GMCH (graphic MCH), se usa como puente de enlace entre el
+microprocesador y la memoria. Controla las funciones de acceso
+hacia y entre el microprocesador, la memoria RAM, el puerto
+gráfico AGP o el PCI-Express de gráficos, y las comunicaciones con
+el puente sur. Al principio tenía también el control de PCI, pero esa
+funcionalidad ha pasado al puente sur.</p>
+<p>- Puente sur: southbridge o ICH (input controller hub), controla los
+dispositivos asociados como son la controladora de discos IDE,
+puertos USB, FireWire, SATA, RAID, ranuras PCI, ranura AMR,
+ranura CNR, puertos infrarrojos, disquetera, LAN, PCI-Express 1x y
+una larga lista de todos los elementos que podamos imaginar
+integrados en la placa madre. Es el encargado de comunicar el
+procesador con el resto de los periféricos.</p>
+
+</font></h2></center>
+
+<center><h2><font color = "white">				
+<p>- Controlador del Bus.</p>
+<p>El controlador del bus se encarga de la frecuencia de funcionamiento
+y las señales de sincronismo, temporización y control. Está ubicado
+en un chip en la placa base.</p>
+<p>El bus es la vía a través de la que se van a transmitir y recibir todas
+las comunicaciones, tanto internas como externas, del sistema
+informático. El bus es solamente un dispositivo de transferencia de
+información entre los componentes conectados a él, no almacena
+información alguna en ningún momento. Los datos, en forma de
+señal eléctrica, sólo permanecen en el bus el tiempo que necesitan en
+recorrer la distancia entre los dos componentes implicados en la
+transferencia.</p>
+
+</font></h2></center>
+<center><img src = "PaginaWeb/imagenes/u47.png"></center>
+
+<center><h2><font color = "white">				
+<p>- Puertas de Entrada Salida E/S.</p>
+<p>Un puerto de E/S es un enchufe en una computadora al que se
+conecta un cable. El puerto conecta la CPU a un dispositivo
+periférico a través de una interfaz de hardware o a la red a través de
+una interfaz de red.</p>
+<p>En otras palabras, un puerto de E/S es un punto de conexión que
+actúa como interfaz entre la computadora y dispositivos externos
+como mouse, impresora, módem, etc. Estos son de dos tipos:</p>
+<p>1. Puerto interno: conecta la placa base a dispositivos internos
+como unidad de disco duro, unidad de CD, módem interno,
+etc.
+2. Puerto externo: conecta la placa base a dispositivos externos
+como módem, mouse, impresora, unidades flash, etc.</p>
+
+<p>- Puerto serial: los puertos seriales transmiten datos secuencialmente
+un bit a la vez. Por lo tanto, solo necesitan un cable para transmitir 8
+bits. Sin embargo, también los hace más lentos. Los puertos serie
+suelen ser conectores macho de 9 o 25 pines. También se conocen
+como puertos COM (comunicación) o puertos RS323C.</p>
+<p>- Puerto paralelo: los puertos paralelos pueden enviar o recibir 8 bits
+o 1 byte a la vez. Los puertos paralelos vienen en forma de pines
+hembra de 25 pines y se utilizan para conectar impresoras,
+escáneres, unidades de disco duro externas, etc.</p>
+<p>- Puerto USB: USB son las siglas de Universal Serial Bus. Es el
+estándar de la industria para la conexión de datos digitales de corta
+distancia. El puerto USB es un puerto estandarizado para conectar
+una variedad de dispositivos como impresora, cámara, teclado,
+altavoz, etc.</p>
+<p>- Puerto PS/2: PS/2 son las siglas de Personal System/2. Es un puerto
+estándar hembra de 6 pines que se conecta al cable mini-DIN
+macho. IBM introdujo PS/2 para conectar el mouse y el teclado a las
+computadoras personales. Este puerto ahora está casi obsoleto,
+aunque algunos sistemas compatibles con IBM pueden tener este
+puerto.</p>
+<p>- Puerto de infrarrojos: el puerto de infrarrojos es un puerto que
+permite el intercambio inalámbrico de datos en un radio de 10 m.
+Dos dispositivos que tienen puertos infrarrojos se colocan uno frente
+al otro para que los haces de luces infrarrojas se puedan utilizar para
+compartir datos.</p>
+<p>- Puerto Bluetooth: Bluetooth es una especificación de
+telecomunicaciones que facilita la conexión inalámbrica entre
+teléfonos, computadoras y otros dispositivos digitales a través de
+una conexión inalámbrica de corto alcance. El puerto Bluetooth
+permite la sincronización entre dispositivos habilitados para
+Bluetooth.</p>
+
+<p>- Puerto FireWire: FireWire es el estándar de interfaz de Apple
+Computer para permitir la comunicación de alta velocidad mediante
+bus serie. También se llama IEEE 1394 y se usa principalmente para
+dispositivos de audio y video como videocámaras digitales.
+</p>
+
+</font></h2></center>
+<center><img src = "PaginaWeb/imagenes/u48.jpg"></center>
+
+<center><h2><font color = "white">				
+<p>- Controlador de Interrupciones.</p>
+<p>El controlador de interrupciones es un módulo que tiene por función
+gestionar las interrupciones de entrada/salida para el procesador.
+Esto ahorra diseñar lógica y añadir patitas al procesador. También
+proporciona flexibilidad porque permite idealmente, gestionar un
+número ilimitado señales de interrupción (favoreciendo la expansión
+del sistema de entrada/salida).</p>
+<p>El controlador recibe el conjunto de señales de interrupción
+procedentes de los dispositivos, toma la decisión de cuál es la más
+prioritaria, y envía una única señal al procesador. La respuesta del
+procesador es transmitida al dispositivo y el propio controlador se
+encarga de depositar en el bus el vector de la interrupción.</p>
+<p>En un sistema basado en la familia de procesadores 8086, esta labor
+la realiza el chip 8259. Este chip admite hasta 8 señales de
+interrupción, pero también admite ser configurado en cascada (sus
+entradas proceden a su vez de otro controlador) de modo que un
+conjunto de controladores 8259 pueden gestionar hasta un máximo
+de 8 x 8 señales de interrupción procedentes de otros tantos
+dispositivos de entrada/salida.</p>
+<p>- Ciclo de reconocimiento de interrupción.</p>
+<p>1. Tras la activación de una línea IR, el controlador activa la
+salida INTR señalándole a la CPU la existencia de una
+interrupción activada.
+2. Al recibir la señal, el procesador da un pulso en su salida
+INTA indicando que comienza un ciclo de reconocimiento de
+interrupción.
+3. Al recibir el controlador el pulso por su entrada INTA
+comienza a arbitrar las interrupciones recibidas y selecciona la
+más prioritaria.
+4. Se emite un segundo pulso por la línea INTA del procesador (o
+controlador de bus) que utiliza el controlador para depositar en
+el bus el vector correspondiente a la interrupción de mayor
+prioridad.
+5. El procesador obtiene la dirección de la rutina de interrupción
+a partir de este dato y salta a ella. Almacena el registro de flags
+y la dirección de retorno, deshabilita las interrupciones y
+comienza a ejecutar la rutina.</p>
+
+</font></h2></center>
+<center><img src = "PaginaWeb/imagenes/u49.jpg"></center
+
+
+<center><h2><font color = "white">
+<p>- Controlador de Acceso Directo a Memoria (DMA).</p>
+<p>El mecanismo de acceso directo a memoria está controlado por un
+chip específico, el DMAC ("DMA Controller"), que permite realizar
+estos intercambios sin apenas intervención del procesador. En los
+XT estaba integrado en un chip 8237A que proporcionaba 4 canales
+de 8 bits (puede mover solo 1 Byte cada vez); sus direcciones de
+puerto son 000–00Fh. Posteriormente en los AT se instalaron dos de
+estos integrados y las correspondientes líneas auxiliares en el bus de
+control.</p>
+<p>En contra de lo que podría parecer, el resultado no fue disponer de 8
+canales, porque el segundo controlador se colgó en “Cascada” de la
+línea 4 del primero. Los canales del segundo DMAC está asignado a
+las direcciones 0C0–0DFh y son de 16 bits.</p>
+
+</font></h2></center>
+<center><img src = "PaginaWeb/imagenes/u50.jpg"></center>
+
+<center><h2><font color = "white">
+<p>- Circuitos de temporización.</p>
+<p>El circuito electrónico que más se utiliza tanto en la industria como
+en circuitería comercial, es el circuito temporizador o de retardo,
+dentro de la categoría de temporizadores, cabe destacar el más
+económico y también menos preciso consistente en una resistencia y
+un condensador, a partir de aquí se puede contar con un sinfín de
+opciones.</p>
+<p>Cuando necesitamos un temporizador, lo primero que debemos
+considerar es la necesidad de precisión en el tiempo, base muy
+importante para determinar los elementos que vamos a utilizar en su
+concepción y diseño.</p>
+
+</font></h2></center>
+<center><img src = "PaginaWeb/imagenes/u51.jpg"></center>
+
+<center><h2><font color = "white">
+<p>- Circuitos de Control.</p>
+<p>Es una red secuencial que acepta un código que define la operación
+que se va a ejecutar y luego prosigue a través de una secuencia de
+estados, generando una correspondiente secuencia de señales
+control.</p>
+<p>Estas señales de control incluyen el control de lectura-escritura y
+señales de dirección de memoria válida en el bus de control del
+sistema. Otras señales generadas por el controlador se conectan a la
+ALU y a los registros internos del procesador para regular el flujo de
+información en el procesador y desde los buses de dirección y de
+datos del sistema.</p>
+
+</font></h2></center>
+<center><img src = "PaginaWeb/imagenes/u52.jpg"></center>
+
+<center><h2><font color = "white">
+<p>- Controladores de video.</p>
+<p>La tarjeta de video, (también llamada controlador de video), es un
+componente electrónico requerido para generar una señal de video
+que se manda a una pantalla de video por medio de un cable. La
+tarjeta de video se encuentra normalmente en la placa de sistema de
+la computadora o en una placa de expansión. La tarjeta gráfica reúne
+toda la información que debe visualizarse en pantalla y actúa como
+interfaz entre el procesador y el monitor; la información es enviada a
+éste por la placa luego de haberla recibido a través del sistema de
+buses.</p>
+<p>Una tarjeta gráfica se compone, básicamente, de un controlador de
+video, de la memoria de pantalla o RAM video, y el generador de
+caracteres, y en la actualidad también poseen un acelerador de
+gráficos. El controlador de video va leyendo a intervalos la
+información almacenada en la RAM video y la transfiere al monitor
+en forma de señal de video; el número de veces por segundo que el
+contenido de la RAM video es leído y transmitido al monitor en
+forma de señal de video se conoce como frecuencia de refresco de la
+pantalla.</p>
+
+</font></h2></center>
+<center><img src = "PaginaWeb/imagenes/u53.jpg"></center>
+
+<center><h2><font color = "white">
+<p>- Tipos de placas de videos.</p>
+<p>*Adaptador de Pantalla Monocromo (MDA): los primeros PC solo
+visualizaban textos. El MDA contaba con 4KB de memoria de video
+RAM que le permitía mostrar 25 líneas de 80 caracteres cada una
+con una resolución de 14x9 puntos por carácter.</p>
+<p>*Tarjeta gráfica Hércules: con esta tarjeta se podía visualizar
+gráficos y textos simultáneamente. En modo texto, soportaba una
+resolución de 80x25 puntos. En tanto que en los gráficos lo hacía
+con 720x350 puntos, dicha tarjeta servía sólo para gráficos de un
+solo color. La tarjeta Hércules tenía una capacidad total de 64k de
+memoria video RAM. Poseía una frecuencia de refresco de la
+pantalla de 50HZ.</p>
+<p>*Color Graphics Adapter (CGA): la CGA utiliza el mismo chip que
+la Hércules y aporta resoluciones y colores distintos. Los tres
+colores primarios se combinan digitalmente formando un máximo de
+ocho colores distintos. La resolución varía considerablemente según
+el modo de gráficos que se esté utilizando.</p>
+
+<p>*La tarjeta EGA: Enchanced Graphics Adapter (EGA). Se trata de
+una tarjeta gráfica superior a la CGA. En el modo texto ofrece una
+resolución de 14x18 puntos y en el modo gráfico dos resoluciones
+diferentes de 640x200 y 640x350 a 4 bits, lo que da como resultado
+una paleta de 16 colores, siempre y cuando la tarjeta esté equipada
+con 256KB de memoria de video RAM.</p>
+<p>*La tarjeta VGA: la Video Graphics Adapter (VGA) significó la
+aparición de un nuevo estándar del mercado. Esta tarjeta ofrece una
+paleta de 256 colores, dando como resultado imágenes de colores
+mucho más vivos. Las primeras VGA contaban con 256KB de
+memoria y solo podían alcanzar una resolución de 320x200 puntos
+con la cantidad de colores mencionados anteriormente.</p>
+<p>*La tarjeta SVGA: la tarjeta SVGA (Super Video Graphics
+Adapter) contiene conjuntos de chips de uso especial, y más
+memoria, lo que aumenta la cantidad de colores y la resolución.</p>
+<p>*El acelerador gráfico: el acelerador gráfico se encarga de realizar
+una serie de funciones relacionadas con la presentación de gráficos
+en la pantalla, que, de otro modo, tendría que realizar el procesador.
+De esta manera, le quita tareas de encima a este último, y así se
+puede dedicar casi exclusivamente al proceso de datos.</p>
+<p>*El coprocesador gráfico: posteriormente, para lograr una mayor
+velocidad se comenzaron a instalar en las tarjetas de video otros
+circuitos especializados en el proceso de comandos gráficos,
+llamados coprocesadores gráficos. Se encuentran especializados en
+la ejecución de una serie de instrucciones específicas de generación
+de gráficos.</p>
+<p>*Aceleradores gráficos 3D: los gráficos en tres dimensiones son una
+representación gráfica de una escena o un objeto a lo largo de tres
+ejes de referencia, X, Y, Z, que marcan el ancho, el alto y la
+profundidad de ese gráfico. Para manejar un gráfico tridimensional,
+éste se divide en una serie de puntos o vértices, en forma de
+coordenadas, que se almacenan en la memoria RAM.</p>
+
+</font></h2></center>
+<center><img src = "PaginaWeb/imagenes/u54.jpg"></center>
+
+</table></center>
+
+<center><h1><font color = "red" >*Tema: Entrada/Salida.*</font></h1></center>
+<center><table border = "3"><td>
+<center><h2><font color = "white">
+<p>En informática, un periférico de entrada/salida o E/S (en inglés:
+input/output o I/O) es aquel tipo de dispositivo periférico de un
+computador capaz de interactuar con los elementos externos a ese
+sistema de forma bidireccional, es decir, que permite tanto que sea
+ingresada información desde un sistema externo, como emitir
+información a partir de ese sistema. Los Dispositivos Periféricos de
+entrada son todos aquellos dispositivos que permiten introducir
+datos o información en una computadora para que esta los procese u
+ordene.</p>
+<p>- Funciones.</p>
+<p>Un periférico de E/S es el que se utiliza para ingresar (E) datos a la
+computadora, y luego de ser procesados por la unidad central de
+procesamiento (CPU), genera la salida (S) de información. Su
+función es leer o grabar, permanente o virtualmente, todo aquello
+que se haga con la computadora, para que pueda ser utilizado por los
+usuarios u otros sistemas.</p>
+<p>- Tipos.</p>
+<p>Dispositivos o periféricos de comunicación entre computadoras,
+tales como módems y tarjetas de red, por lo general sirven para
+entrada y salida. También, los dispositivos de almacenamiento de
+datos, como los discos rígidos, la unidad de estado sólido, las
+memorias flash, las disqueteras, entre otros, se pueden considerar
+periféricos de entrada/salida.</p>
+</font></h2></center>
+
+
+<p>Ejemplos:
+•	Multitáctil.
+•	Casco virtual.
+•	Impresora multifunción.</p>
+<p>- Almacenamiento de datos.</p>
+En ocasiones, se consideran periféricos de E/S a los dispositivos de 
+almacenamiento de datos, por ejemplo, las lectograbadoras de discos ópticos, 
+‘lectoras’ de tarjetas de memoria, discos duros portátiles o externos, 
+memorias USB o memorias flash, etcétera.</p>
+<p>- Dispositivos de redes.</p>
+También, los dispositivos de redes o de comunicación, suelen considerarse
+ periféricos de E/S porque su función es la interacción o interconexión 
+entre dos o más computadoras, o entre la computadora y otro periférico externo. 
+<p>- Ejemplos: </p>
+<p>Módem, tarjeta de red, concentrador, conmutador (dispositivo de red),
+enrutador, comunicación inalámbrica, bluetooth.g</p>
+</font></h2></center>
+<center><img src = "PaginaWeb/imagenes/u55.jpg"></center>
+
+<center><h2><font color = "white">
+<p>- Almacenamiento.</p>
+<p>Conforme la tecnología avanza, más datos se van generando, por lo
+que es necesario contar con un almacenamiento eficiente para poder
+guardar toda esa información y acceder a ellos. El almacenamiento
+de datos ha cambiado mucho, desde los sistemas de disco, que muy
+probablemente se sigan utilizando, pero de una forma más digital:
+hoy se encuentran conectados a una red y son definidos por un
+software.</p>
+<p>El almacenamiento de datos tiene un proceso a través del uso de la
+tecnología, ésta se aplica para organizar, distribuir y archivar
+información con los bytes y los bits que son parte de los sistemas de
+los que la gente depende día con día, llega a ser tan importante en
+todos los servicios: desde una simple aplicación, contenido
+multimedia, direcciones, contactos, hasta protocolos de red y todo lo
+que tiene que ver con el mundo digital.</p>
+
+<p>- Memoria contra almacenamiento.</p>
+<p>Generalmente, los usuarios de computadoras tienden a confundir los
+términos “memoria” y “almacenamiento” pues los emplean de
+manera indistinta, utilizándolos para referirse a la RAM (o memoria
+principal) o al disco duro. Desde el punto de vista técnico, ambos
+términos son prácticamente iguales pues tanto la RAM como el
+disco duro se utilizan para almacenar información, claro está, de
+formas distintas y para propósitos diferentes.</p>
+<p>Mientras la memoria se refiere a la ubicación de los datos a corto
+plazo, el almacenamiento es el componente de su computadora que
+le permite almacenar y acceder a datos a largo plazo. Usualmente, el
+almacenamiento se da en forma de una unidad de estado sólido o un
+disco duro. El almacenamiento le permite acceder y almacenar sus
+aplicaciones, sistema operativo y archivos por un tiempo indefinido.</p>
+
+<p>Una diferencia importante entre memoria y almacenamiento es que
+la primera se borra cuando se apaga la computadora. Por otro lado,
+el almacenamiento permanece intacto no importa cuántas veces se
+apague la computadora.</p>
+
+<p>Por lo tanto, en la analogía del escritorio y el archivador, cualquier
+archivo que quede en su escritorio cuando salga de la oficina se
+botará. Todo lo que esté en su archivador se mantendrá igual.</p>
+</font></h2></center>
+<center><img src = "PaginaWeb/imagenes/u56.jpg"></center>
+
+<center><h2><font color = "white">
+<p>- Almacenamiento en sistemas informáticos.</p>
+<p>Un dispositivo de almacenamiento es un hardware que se utiliza
+principalmente para almacenar datos. Cada computadora de
+escritorio, computadora portátil, tablet y smartphone tendrán algún
+tipo de dispositivo de almacenamiento en su interior y también
+puedes obtener unidades de almacenamiento externo independientes
+que se pueden utilizar en varios dispositivos.</p>
+<p>* Unidades de discos duros (HDD).
+* Discos de estado sólido (SSD).</p>
+</font></h2></center>
+<center><img src = "PaginaWeb/imagenes/u57.jpg"></center>
+
+<center><h2><font color = "white">
+<p>- Dispositivos de almacenamiento externo.</p>
+<p>Además de los medios de almacenamiento contenidos en una
+computadora, también hay dispositivos de almacenamiento digital
+que son externos a las computadoras. Se utilizan comúnmente para
+ampliar la capacidad de almacenamiento cuando una computadora
+se queda sin espacio, para permitir una mayor portabilidad y para
+facilitar la transferencia de archivos de un dispositivo a otro.</p>
+<p>
+* Unidades de discos duros y discos de estado sólido externos.
+* Dispositivos de memoria flash (unidades USB y tarjetas SD).
+* Dispositivos de almacenamiento óptico (CD, DVD y discos
+Blu-Ray).
+* Disquetes.</p>
+</font></h2></center>
+<center><img src = "PaginaWeb/imagenes/u58.jpg"></center>
+
+<center><h2><font color = "white">
+<p>- Almacenamiento en la nube.</p>
+<p>Aunque no es exactamente un dispositivo en sí mismo, el
+almacenamiento en la nube es el tipo de almacenamiento más nuevo
+y versátil para las computadoras. “La nube” no es un lugar u objeto,
+sino un enorme conjunto de servidores alojados en centros de datos
+de todo el mundo. Cuando guardas un documento en la nube, lo
+estás almacenando en estos servidores.</p>
+<p>Debido a que todo se almacena en línea, el almacenamiento en la
+nube no utiliza ningún almacenamiento secundario de la
+computadora, lo que te permite ahorrar espacio.</p>
+</font></h2></center>
+<center><img src = "PaginaWeb/imagenes/u59.jpg"></center>
+
+<center><h2><font color = "white">
+<p>- Fuentes de Alimentación.</p>
+Una fuente de alimentación es un componente esencial de cualquier
+dispositivo electrónico ya que es ella quien se encarga de darle vida.
+En cualquier equipo, por pequeño que sea, siempre hay una fuente
+de alimentación, aunque no la veamos.</p>
+<p>En los ordenadores de sobremesa, la fuente de alimentación se
+encuentra generalmente en la parte inferior de la torre (en cajas
+antiguas se encuentra en la superior), y muchas cajas de ordenador
+optan por incorporar un compartimento para separarla del resto y ya
+de paso ocultar todos los cables salientes de ella.
+existen fuentes de alimentación modulares y semi-modulares, de
+manera que los cables son total o completamente desmontables. De
+esta manera, una fuente de alimentación modular mejora el flujo de
+aire del PC ya que solo cuenta con los cables que se necesitan.</p>
+</font></h2></center>
+<center><img src = "PaginaWeb/imagenes/u60.jpg"></center>
+
+</table></center>
+
+
+<center><a href = "PaginaW.html"><font color = "white">Inicio</a> -
+<a href = "uni1.html"><font color = "white">Unidad 1</a> -
+<a href = "uni2.html"><font color = "white">Unidad 2</a> -
+<a href = "uni3.html"><font color = "white">Unidad 3</a> -
+<a href = "uni4.html"><font color = "white">Unidad 4</font></a> <br><font color = "white"> Creado por Arnoldo Gaona Hernandez, Ingenieria
+en Sistemas Computacionales Tec Campus Saltillo</font>.
+</center>
+</body>
+</html>
